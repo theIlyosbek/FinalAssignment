@@ -23,7 +23,13 @@ def roman_to_int(s):
     return result
 
 
+def printr(s):
+    print(f"The integer equivalent of {s} is {roman_to_int(s)}")
+
+
 # Example usage:
-roman_numeral = "DCXXI"
+roman_numeral = "MCMXCIV"
 result_integer = roman_to_int(roman_numeral)
 print(f"The integer equivalent of {roman_numeral} is {result_integer}")
+
+printr("DCXXI")
